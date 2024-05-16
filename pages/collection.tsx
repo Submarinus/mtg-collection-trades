@@ -1,7 +1,7 @@
 import { useUser } from "@auth0/nextjs-auth0/client";
 import Layout from "../components/layout";
 
-const About = () => {
+const Collection = () => {
   const { user, isLoading } = useUser();
 
   return (
@@ -12,4 +12,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Collection;
