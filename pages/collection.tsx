@@ -7,7 +7,7 @@ const Collection = () => {
   return (
     <Layout user={user} loading={isLoading}>
       <h1>My Collection</h1>
-      <p>Here you will be able to upload and view your collection</p>
+      <p>Here you will be able to view your collection</p>
     </Layout>
   );
 };

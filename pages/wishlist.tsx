@@ -7,7 +7,7 @@ const Wishlist = () => {
   return (
     <Layout user={user} loading={isLoading}>
       <h1>My wishlist</h1>
-      <p>Here you will be able to upload and view your wishlist</p>
+      <p>Here you will be able to view your wishlist</p>
     </Layout>
   );
 };
