@@ -14,6 +14,9 @@ const Header = ({ user, loading }: HeaderProps) => {
             <Link href="/">Home</Link>
           </li>
           <li>
+            <Link href="/upload">Upload</Link>
+          </li>
+          <li>
             <Link href="/collection">My Collection</Link>
           </li>
           <li>
